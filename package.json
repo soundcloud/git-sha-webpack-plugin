@@ -2,7 +2,7 @@
   "name": "git-sha-webpack-plugin",
   "version": "0.0.1",
   "description": "Tag your webpack bundles with a Git SHA linked to the latest commit on that bundle",
-  "main": "index.js",
+  "main": "lib/GitSHAPlugin.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -13,6 +13,7 @@
   },
   "license": "MIT",
   "dependencies": {
+    "async": "^0.9.0",
     "git-bundle-sha": "0.0.1"
   }
 }
