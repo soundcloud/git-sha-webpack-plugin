@@ -24,7 +24,7 @@ module.exports = {
     filename: '[chunkgitsha].js'
   },
   plugins: [
-    new GitSHAPlugin()
+    new GitSHAPlugin({shaLength: 7})
   ]
 }
 ```
