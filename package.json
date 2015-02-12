@@ -15,5 +15,13 @@
   "dependencies": {
     "async": "^0.9.0",
     "git-bundle-sha": "^0.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/diurnalist/git-sha-webpack-plugin.git"
+  },
+  "homepage": "https://github.com/diurnalist/git-sha-webpack-plugin",
+  "bugs": {
+    "url": "https://github.com/diurnalist/git-sha-webpack-plugin/issues"
   }
 }
