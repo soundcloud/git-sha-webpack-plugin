@@ -24,13 +24,13 @@ module.exports = {
     filename: '[chunkgitsha].js'
   },
   plugins: [
-    new GitSHAPlugin({length: 7})
+    new GitSHAPlugin({shaLength: 7})
   ]
 }
 ```
 
 ### Options
 
-#### `length`
+#### `shaLength`
 
 Allows truncating the SHA to a specific character length. 7 by default.
