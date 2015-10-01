@@ -1,6 +1,6 @@
 {
   "name": "git-sha-webpack-plugin",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Tag your webpack bundles with a Git SHA linked to the latest commit on that bundle",
   "main": "lib/GitSHAPlugin.js",
   "scripts": {
