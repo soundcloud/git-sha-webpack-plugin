@@ -34,3 +34,7 @@ module.exports = {
 #### `shaLength`
 
 Allows truncating the SHA to a specific character length. 7 by default.
+
+#### `useHead`
+
+Boolean: if useHead is true will return current git hash, if false will return most recent git hash of files within chunk
