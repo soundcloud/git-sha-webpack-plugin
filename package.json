@@ -13,7 +13,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "async": "^0.9.0",
+    "async": "^2.6.4",
     "git-bundle-sha": "^0.0.2"
   },
   "repository": {
